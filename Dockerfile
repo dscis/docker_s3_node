@@ -7,6 +7,4 @@ VOLUME ["/website", "/config"]
 
 WORKDIR /website
 
-ENTRYPOINT ["s3_website"]
-
-CMD ["--help"]
+CMD ["bash"]
